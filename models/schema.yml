@@ -1,0 +1,14 @@
+version: 2
+
+
+models:
+  - name: stg_transactions
+    description: Transaction in the ethereum project
+    columns:
+      - name: hash
+        description: >
+          Multiline description added
+          for the peoject
+        data_tests:
+          - unique
+          - not_null
