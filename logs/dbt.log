@@ -14356,3 +14356,531 @@ select * from eth.eth_schema.contracts
 [0m12:04:50.676539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CA2A025A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CA31C05F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CA2C20200>]}
 [0m12:04:50.676539 [debug] [MainThread]: Flushing usage events
 [0m12:04:52.180131 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:13:58.885813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070872BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002206D5D2E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070B383B0>]}
+
+
+============================== 12:13:58.889812 | 16587b0e-7de6-43bd-ab6f-bb196a8b1a13 ==============================
+[0m12:13:58.889812 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:13:58.889812 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:13:59.468938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '16587b0e-7de6-43bd-ab6f-bb196a8b1a13', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002207296A720>]}
+[0m12:13:59.542006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '16587b0e-7de6-43bd-ab6f-bb196a8b1a13', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002207294B2C0>]}
+[0m12:13:59.542006 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m12:14:00.010436 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 6 files added, 0 files changed.
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\token_activity_per_day.sql
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\eth_activity_per_day.sql
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\stable_coin_activity_per_day.sql
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stg_transactions.sql
+[0m12:14:00.197546 [debug] [MainThread]: Partial parsing: added file: eth://models\schema.yml
+[0m12:14:00.201894 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stable_coin_activity_per_day.sql
+[0m12:14:00.201894 [debug] [MainThread]: Partial parsing: deleted file: eth://models\stable_coin_activity_per_day.sql
+[0m12:14:00.515154 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two models with the name "stable_coin_activity_per_day".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for ref("stable_coin_activity_per_day").
+  
+  To fix this, change the name of one of these resources:
+  - model.eth.stable_coin_activity_per_day (models\base\stable_coin_activity_per_day.sql)
+  - model.eth.stable_coin_activity_per_day (models\marts\stable_coin_activity_per_day.sql)
+[0m12:14:00.517113 [debug] [MainThread]: Command `dbt run` failed at 12:14:00.516113 after 1.76 seconds
+[0m12:14:00.517113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002206E315730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022072FAD400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220733E27E0>]}
+[0m12:14:00.518112 [debug] [MainThread]: Flushing usage events
+[0m12:14:01.919543 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:14:34.620470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B2D6A3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B2D69D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B33508C0>]}
+
+
+============================== 12:14:34.624465 | 941ac479-7989-4857-91ff-c071746b1e61 ==============================
+[0m12:14:34.624465 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:14:34.625467 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m12:14:35.138639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '941ac479-7989-4857-91ff-c071746b1e61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B5C02A20>]}
+[0m12:14:35.201349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '941ac479-7989-4857-91ff-c071746b1e61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B5D996D0>]}
+[0m12:14:35.202348 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m12:14:35.529073 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 5 files added, 0 files changed.
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\eth_activity_per_day.sql
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\token_activity_per_day.sql
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\stable_coin_activity_per_day.sql
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: added file: eth://models\schema.yml
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stg_transactions.sql
+[0m12:14:35.683748 [debug] [MainThread]: Partial parsing: deleted file: eth://models\stable_coin_activity_per_day.sql
+[0m12:14:36.142426 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.eth.eth_activity_per_day' (models\marts\eth_activity_per_day.sql) depends on a node named 'stg_transactions_enriched' which was not found
+[0m12:14:36.144432 [debug] [MainThread]: Command `dbt run` failed at 12:14:36.143399 after 1.64 seconds
+[0m12:14:36.144432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B0483050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B2D68AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250B2D687A0>]}
+[0m12:14:36.144432 [debug] [MainThread]: Flushing usage events
+[0m12:14:37.534960 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:33:28.842145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFB1C20C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFDB64CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFDB65AC0>]}
+
+
+============================== 22:33:28.856837 | ba036fcc-0326-462e-aefb-5ec56137d5a2 ==============================
+[0m22:33:28.856837 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:33:28.857800 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m22:33:30.500559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ba036fcc-0326-462e-aefb-5ec56137d5a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFD456990>]}
+[0m22:33:30.605532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ba036fcc-0326-462e-aefb-5ec56137d5a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFCFCB3B0>]}
+[0m22:33:30.607542 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m22:33:31.308857 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m22:33:32.979654 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 5 files added, 0 files changed.
+[0m22:33:32.979654 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stg_transactions.sql
+[0m22:33:32.981660 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\eth_activity_per_day.sql
+[0m22:33:32.981660 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\token_activity_per_day.sql
+[0m22:33:32.981660 [debug] [MainThread]: Partial parsing: added file: eth://models\schema.yml
+[0m22:33:32.981660 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\stable_coin_activity_per_day.sql
+[0m22:33:32.983667 [debug] [MainThread]: Partial parsing: deleted file: eth://models\stable_coin_activity_per_day.sql
+[0m22:33:33.633525 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.eth.eth_activity_per_day' (models\marts\eth_activity_per_day.sql) depends on a node named 'stg_transactions_enriched' which was not found
+[0m22:33:33.638172 [debug] [MainThread]: Command `dbt run` failed at 22:33:33.638172 after 5.00 seconds
+[0m22:33:33.638172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFDCBC530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFDFC2BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FFDB67FB0>]}
+[0m22:33:33.638172 [debug] [MainThread]: Flushing usage events
+[0m22:33:36.034625 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:33:46.325679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C5FEC66F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C5F5C70E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C609A6870>]}
+
+
+============================== 22:33:46.331047 | 169018b9-a826-48a2-a829-52b26f04438a ==============================
+[0m22:33:46.331047 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:33:46.331047 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'c:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:33:46.563294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '169018b9-a826-48a2-a829-52b26f04438a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C609A6870>]}
+[0m22:33:46.597187 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:33:46.599634 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:33:46.602945 [debug] [MainThread]: Command `cli deps` succeeded at 22:33:46.602945 after 0.46 seconds
+[0m22:33:46.603712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C62B347D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C621B4EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C62CEF8F0>]}
+[0m22:33:46.604848 [debug] [MainThread]: Flushing usage events
+[0m22:33:48.288382 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:36:06.296813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEEFC8A660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF2812CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF2812D20>]}
+
+
+============================== 22:36:06.296813 | 070ae709-6056-41f7-9f46-41dfabe84358 ==============================
+[0m22:36:06.296813 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:36:06.296813 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:06.793382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '070ae709-6056-41f7-9f46-41dfabe84358', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF32FBC80>]}
+[0m22:36:06.846596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '070ae709-6056-41f7-9f46-41dfabe84358', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF54AEC00>]}
+[0m22:36:06.846596 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m22:36:07.169278 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 5 files added, 0 files changed.
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stg_transactions.sql
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: added file: eth://models\schema.yml
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\stable_coin_activity_per_day.sql
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\eth_activity_per_day.sql
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\token_activity_per_day.sql
+[0m22:36:07.353887 [debug] [MainThread]: Partial parsing: deleted file: eth://models\stable_coin_activity_per_day.sql
+[0m22:36:07.806886 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.eth.stable_coin_activity_per_day' (models\marts\stable_coin_activity_per_day.sql) depends on a node named 'stablecoins' which was not found
+[0m22:36:07.806886 [debug] [MainThread]: Command `dbt run` failed at 22:36:07.806886 after 1.63 seconds
+[0m22:36:07.806886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF3199640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF5516540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEF5514680>]}
+[0m22:36:07.806886 [debug] [MainThread]: Flushing usage events
+[0m22:36:09.422620 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:38:24.954895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D08F57C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D3C597F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D18F79E0>]}
+
+
+============================== 22:38:24.954895 | 46b736d3-af33-4587-bd71-7ed3735289c8 ==============================
+[0m22:38:24.954895 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:38:24.954895 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:25.439570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D5D7B680>]}
+[0m22:38:25.486867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D5FDA000>]}
+[0m22:38:25.486867 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m22:38:25.832022 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 7 files added, 0 files changed.
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\staging\stg_transactions_enriched.sql
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\token_activity_per_day.sql
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\stable_coin_activity_per_day.sql
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\base\stg_transactions.sql
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://seeds\stablecoins.csv
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\marts\eth_activity_per_day.sql
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: added file: eth://models\schema.yml
+[0m22:38:26.028659 [debug] [MainThread]: Partial parsing: deleted file: eth://models\stable_coin_activity_per_day.sql
+[0m22:38:26.777389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D694F1A0>]}
+[0m22:38:26.896292 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m22:38:26.914171 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m22:38:26.928353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D6BDE450>]}
+[0m22:38:26.928353 [info ] [MainThread]: Found 1 analysis, 7 models, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m22:38:26.936278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D6C20110>]}
+[0m22:38:26.936278 [info ] [MainThread]: 
+[0m22:38:26.936278 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:38:26.936278 [info ] [MainThread]: 
+[0m22:38:26.936278 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m22:38:26.946435 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m22:38:27.028851 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m22:38:27.028851 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m22:38:27.028851 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:38:32.424246 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 5.391 seconds
+[0m22:38:32.427758 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m22:38:32.427758 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m22:38:32.678031 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.249 seconds
+[0m22:38:32.682041 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM_marts'
+[0m22:38:32.691805 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m22:38:32.693811 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m22:38:32.693811 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:38:35.304587 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.611 seconds
+[0m22:38:35.309587 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m22:38:35.310585 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m22:38:35.472558 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.162 seconds
+[0m22:38:35.472558 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m22:38:35.472558 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m22:38:35.555994 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m22:38:35.557998 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_seeds_DBT_NLM_static)
+[0m22:38:35.560001 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m22:38:35.560001 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m22:38:35.651542 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m22:38:35.653043 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m22:38:35.654090 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m22:38:35.830615 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.177 seconds
+[0m22:38:35.832612 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m22:38:35.832612 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m22:38:35.918150 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.084 seconds
+[0m22:38:35.919150 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m22:38:35.923483 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m22:38:35.923483 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m22:38:36.012658 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m22:38:36.015720 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m22:38:36.016720 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m22:38:36.188312 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.171 seconds
+[0m22:38:36.190476 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m22:38:36.191500 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m22:38:36.286970 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.095 seconds
+[0m22:38:36.291441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D1DF8B30>]}
+[0m22:38:36.297964 [debug] [Thread-1 (]: Began running node model.eth.stg_contracts
+[0m22:38:36.297964 [info ] [Thread-1 (]: 1 of 7 START sql table model DBT_NLM.stg_contracts ............................. [RUN]
+[0m22:38:36.297964 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stg_contracts'
+[0m22:38:36.297964 [debug] [Thread-1 (]: Began compiling node model.eth.stg_contracts
+[0m22:38:36.307704 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stg_contracts"
+[0m22:38:36.309841 [debug] [Thread-1 (]: Began executing node model.eth.stg_contracts
+[0m22:38:36.341361 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stg_contracts"
+[0m22:38:36.341361 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_contracts"
+[0m22:38:36.341361 [debug] [Thread-1 (]: On model.eth.stg_contracts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_contracts"} */
+create or replace transient table DBT.DBT_NLM.stg_contracts
+    
+
+    
+    as (
+
+select 
+    address,
+    block_number,
+    bytecode,
+    date,
+    last_modified
+from eth.eth_schema.contracts
+    )
+;
+[0m22:38:36.341361 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:38:44.527840 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 8.179 seconds
+[0m22:38:44.560473 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D14AE270>]}
+[0m22:38:44.561473 [info ] [Thread-1 (]: 1 of 7 OK created sql table model DBT_NLM.stg_contracts ........................ [[32mSUCCESS 1[0m in 8.26s]
+[0m22:38:44.562473 [debug] [Thread-1 (]: Finished running node model.eth.stg_contracts
+[0m22:38:44.563473 [debug] [Thread-1 (]: Began running node model.eth.stg_token_transfers
+[0m22:38:44.563473 [info ] [Thread-1 (]: 2 of 7 START sql table model DBT_NLM.stg_token_transfers ....................... [RUN]
+[0m22:38:44.564946 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.stg_contracts, now model.eth.stg_token_transfers)
+[0m22:38:44.564946 [debug] [Thread-1 (]: Began compiling node model.eth.stg_token_transfers
+[0m22:38:44.568546 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stg_token_transfers"
+[0m22:38:44.568546 [debug] [Thread-1 (]: Began executing node model.eth.stg_token_transfers
+[0m22:38:44.573419 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stg_token_transfers"
+[0m22:38:44.574468 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_token_transfers"
+[0m22:38:44.574468 [debug] [Thread-1 (]: On model.eth.stg_token_transfers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_token_transfers"} */
+create or replace transient table DBT.DBT_NLM.stg_token_transfers
+    
+
+    
+    as (
+
+select 
+transaction_hash,
+date,
+token_address,
+value
+
+from eth.eth_schema.token_transfers
+    )
+;
+[0m22:39:04.435825 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 19.862 seconds
+[0m22:39:04.435825 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D7D2C230>]}
+[0m22:39:04.435825 [info ] [Thread-1 (]: 2 of 7 OK created sql table model DBT_NLM.stg_token_transfers .................. [[32mSUCCESS 1[0m in 19.87s]
+[0m22:39:04.442586 [debug] [Thread-1 (]: Finished running node model.eth.stg_token_transfers
+[0m22:39:04.442586 [debug] [Thread-1 (]: Began running node model.eth.stg_transactions
+[0m22:39:04.444595 [info ] [Thread-1 (]: 3 of 7 START sql incremental model DBT_NLM.stg_transactions .................... [RUN]
+[0m22:39:04.444595 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.stg_token_transfers, now model.eth.stg_transactions)
+[0m22:39:04.444595 [debug] [Thread-1 (]: Began compiling node model.eth.stg_transactions
+[0m22:39:04.446363 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stg_transactions"
+[0m22:39:04.446363 [debug] [Thread-1 (]: Began executing node model.eth.stg_transactions
+[0m22:39:04.523787 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:04.523787 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+create or replace  temporary view DBT.DBT_NLM.stg_transactions__dbt_tmp
+  
+   as (
+    
+
+select 
+
+    hash,
+    block_number,
+    date,
+    from_address,
+    to_address,
+    value,
+    receipt_contract_address,
+    input
+
+from eth.eth_schema.transactions
+
+
+
+where date >(select max(date) from DBT.DBT_NLM.stg_transactions )
+
+
+  );
+[0m22:39:05.268774 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.748 seconds
+[0m22:39:05.283620 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:05.283620 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+describe table DBT.DBT_NLM.stg_transactions__dbt_tmp
+[0m22:39:05.422549 [debug] [Thread-1 (]: SQL status: SUCCESS 8 in 0.137 seconds
+[0m22:39:05.430486 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:05.430486 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+describe table DBT.DBT_NLM.stg_transactions
+[0m22:39:05.519357 [debug] [Thread-1 (]: SQL status: SUCCESS 8 in 0.089 seconds
+[0m22:39:05.529149 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:05.531157 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+describe table "DBT"."DBT_NLM"."STG_TRANSACTIONS"
+[0m22:39:05.668928 [debug] [Thread-1 (]: SQL status: SUCCESS 8 in 0.137 seconds
+[0m22:39:05.794245 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stg_transactions"
+[0m22:39:05.798262 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:05.798262 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+-- back compat for old kwarg name
+  
+  begin;
+[0m22:39:05.915038 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.116 seconds
+[0m22:39:05.915038 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:05.915038 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+merge into DBT.DBT_NLM.stg_transactions as DBT_INTERNAL_DEST
+        using DBT.DBT_NLM.stg_transactions__dbt_tmp as DBT_INTERNAL_SOURCE
+        on ((DBT_INTERNAL_SOURCE.hash = DBT_INTERNAL_DEST.hash))
+
+    
+    when matched then update set
+        "HASH" = DBT_INTERNAL_SOURCE."HASH","BLOCK_NUMBER" = DBT_INTERNAL_SOURCE."BLOCK_NUMBER","DATE" = DBT_INTERNAL_SOURCE."DATE","FROM_ADDRESS" = DBT_INTERNAL_SOURCE."FROM_ADDRESS","TO_ADDRESS" = DBT_INTERNAL_SOURCE."TO_ADDRESS","VALUE" = DBT_INTERNAL_SOURCE."VALUE","RECEIPT_CONTRACT_ADDRESS" = DBT_INTERNAL_SOURCE."RECEIPT_CONTRACT_ADDRESS","INPUT" = DBT_INTERNAL_SOURCE."INPUT"
+    
+
+    when not matched then insert
+        ("HASH", "BLOCK_NUMBER", "DATE", "FROM_ADDRESS", "TO_ADDRESS", "VALUE", "RECEIPT_CONTRACT_ADDRESS", "INPUT")
+    values
+        ("HASH", "BLOCK_NUMBER", "DATE", "FROM_ADDRESS", "TO_ADDRESS", "VALUE", "RECEIPT_CONTRACT_ADDRESS", "INPUT")
+
+;
+[0m22:39:06.430994 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.520 seconds
+[0m22:39:06.437837 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:06.437837 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+COMMIT
+[0m22:39:06.587405 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.149 seconds
+[0m22:39:06.588518 [debug] [Thread-1 (]: Applying DROP to: DBT.DBT_NLM.stg_transactions__dbt_tmp
+[0m22:39:06.613000 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions"
+[0m22:39:06.613507 [debug] [Thread-1 (]: On model.eth.stg_transactions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions"} */
+drop view if exists DBT.DBT_NLM.stg_transactions__dbt_tmp cascade
+[0m22:39:06.775934 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.163 seconds
+[0m22:39:06.778935 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D36781A0>]}
+[0m22:39:06.778935 [info ] [Thread-1 (]: 3 of 7 OK created sql incremental model DBT_NLM.stg_transactions ............... [[32mSUCCESS 0[0m in 2.33s]
+[0m22:39:06.779938 [debug] [Thread-1 (]: Finished running node model.eth.stg_transactions
+[0m22:39:06.780935 [debug] [Thread-1 (]: Began running node model.eth.stg_transactions_enriched
+[0m22:39:06.781932 [info ] [Thread-1 (]: 4 of 7 START sql table model DBT_NLM.stg_transactions_enriched ................. [RUN]
+[0m22:39:06.781932 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.stg_transactions, now model.eth.stg_transactions_enriched)
+[0m22:39:06.782900 [debug] [Thread-1 (]: Began compiling node model.eth.stg_transactions_enriched
+[0m22:39:06.784899 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stg_transactions_enriched"
+[0m22:39:06.786903 [debug] [Thread-1 (]: Began executing node model.eth.stg_transactions_enriched
+[0m22:39:06.790577 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stg_transactions_enriched"
+[0m22:39:06.792777 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stg_transactions_enriched"
+[0m22:39:06.792777 [debug] [Thread-1 (]: On model.eth.stg_transactions_enriched: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stg_transactions_enriched"} */
+create or replace transient table DBT.DBT_NLM.stg_transactions_enriched
+    
+
+    
+    as (select 
+    t.hash,
+    t.block_number,
+    t.date,
+    t.from_address,
+    t.to_address,
+    t.value,
+    t.receipt_contract_address,
+    t.input,
+    tt.token_transfer_count,
+    case 
+        when t.receipt_contract_address != '' then 'contract_creation'
+        when tt.transaction_hash is not null then 'token_transfer'
+        when t.input ='0x' and t.value>0 then 'plain_eth_transfer'
+        else 'other'
+    end as transaction_category
+
+from DBT.DBT_NLM.stg_transactions t
+left join(
+    select
+    transaction_hash,
+    count(*) as token_transfer_count
+    from  DBT.DBT_NLM.stg_token_transfers
+    group by transaction_hash
+) tt
+on t.hash=tt.transaction_hash
+
+where date >(select max(date) from DBT.DBT_NLM.stg_transactions_enriched )
+    )
+;
+[0m22:39:07.519817 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.726 seconds
+[0m22:39:07.521823 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D6996A20>]}
+[0m22:39:07.521823 [info ] [Thread-1 (]: 4 of 7 OK created sql table model DBT_NLM.stg_transactions_enriched ............ [[32mSUCCESS 1[0m in 0.74s]
+[0m22:39:07.524723 [debug] [Thread-1 (]: Finished running node model.eth.stg_transactions_enriched
+[0m22:39:07.524723 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m22:39:07.524723 [info ] [Thread-1 (]: 5 of 7 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m22:39:07.524723 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.stg_transactions_enriched, now model.eth.stable_coin_activity_per_day)
+[0m22:39:07.524723 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m22:39:07.527673 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m22:39:07.527673 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m22:39:07.534918 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m22:39:07.534918 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m22:39:07.534918 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m22:39:09.368747 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.831 seconds
+[0m22:39:09.370751 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D694CF20>]}
+[0m22:39:09.372755 [info ] [Thread-1 (]: 5 of 7 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 1.85s]
+[0m22:39:09.372755 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m22:39:09.372755 [debug] [Thread-1 (]: Began running node model.eth.token_activity_per_day
+[0m22:39:09.372755 [info ] [Thread-1 (]: 6 of 7 START sql table model DBT_NLM_marts.tron_activity_per_day ............... [RUN]
+[0m22:39:09.374760 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.stable_coin_activity_per_day, now model.eth.token_activity_per_day)
+[0m22:39:09.374760 [debug] [Thread-1 (]: Began compiling node model.eth.token_activity_per_day
+[0m22:39:09.380034 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.token_activity_per_day"
+[0m22:39:09.380034 [debug] [Thread-1 (]: Began executing node model.eth.token_activity_per_day
+[0m22:39:09.382785 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.token_activity_per_day"
+[0m22:39:09.382785 [debug] [Thread-1 (]: Using snowflake connection "model.eth.token_activity_per_day"
+[0m22:39:09.386455 [debug] [Thread-1 (]: On model.eth.token_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.token_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.tron_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    
+
+(sum( t.value /POWER(10, 6) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+where lower(t.token_address)= '0x50327c6c5a14dcade707abad2e27eb517df87ab5'
+
+group by 
+t.date,
+t.token_address
+    )
+;
+[0m22:39:11.721891 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.335 seconds
+[0m22:39:11.723773 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D68B5A30>]}
+[0m22:39:11.723773 [info ] [Thread-1 (]: 6 of 7 OK created sql table model DBT_NLM_marts.tron_activity_per_day .......... [[32mSUCCESS 1[0m in 2.35s]
+[0m22:39:11.723773 [debug] [Thread-1 (]: Finished running node model.eth.token_activity_per_day
+[0m22:39:11.723773 [debug] [Thread-1 (]: Began running node model.eth.eth_activity_per_day
+[0m22:39:11.723773 [info ] [Thread-1 (]: 7 of 7 START sql table model DBT_NLM_marts.eth_activity_per_day ................ [RUN]
+[0m22:39:11.723773 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.eth.token_activity_per_day, now model.eth.eth_activity_per_day)
+[0m22:39:11.723773 [debug] [Thread-1 (]: Began compiling node model.eth.eth_activity_per_day
+[0m22:39:11.729318 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.eth_activity_per_day"
+[0m22:39:11.729318 [debug] [Thread-1 (]: Began executing node model.eth.eth_activity_per_day
+[0m22:39:11.739653 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.eth_activity_per_day"
+[0m22:39:11.741754 [debug] [Thread-1 (]: Using snowflake connection "model.eth.eth_activity_per_day"
+[0m22:39:11.741754 [debug] [Thread-1 (]: On model.eth.eth_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.eth_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.eth_activity_per_day
+    
+
+    
+    as (
+
+select
+    date,
+    transaction_category,
+    count(*) as tran_count ,
+    
+
+sum( value)/1e18
+
+ as sum_eth_value
+from DBT.DBT_NLM.stg_transactions_enriched
+group by date, transaction_category
+    )
+;
+[0m22:39:12.311506 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.570 seconds
+[0m22:39:12.314645 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46b736d3-af33-4587-bd71-7ed3735289c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D650C3E0>]}
+[0m22:39:12.314645 [info ] [Thread-1 (]: 7 of 7 OK created sql table model DBT_NLM_marts.eth_activity_per_day ........... [[32mSUCCESS 1[0m in 0.59s]
+[0m22:39:12.314645 [debug] [Thread-1 (]: Finished running node model.eth.eth_activity_per_day
+[0m22:39:12.314645 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:39:12.318211 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m22:39:12.318211 [debug] [MainThread]: On list_DBT: Close
+[0m22:39:12.420725 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m22:39:12.420725 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m22:39:12.534812 [debug] [MainThread]: Connection 'model.eth.eth_activity_per_day' was left open.
+[0m22:39:12.534812 [debug] [MainThread]: On model.eth.eth_activity_per_day: Close
+[0m22:39:12.635693 [info ] [MainThread]: 
+[0m22:39:12.637106 [info ] [MainThread]: Finished running 1 incremental model, 6 table models in 0 hours 0 minutes and 45.70 seconds (45.70s).
+[0m22:39:12.639165 [debug] [MainThread]: Command end result
+[0m22:39:12.671263 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m22:39:12.714228 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m22:39:12.723129 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m22:39:12.724130 [info ] [MainThread]: 
+[0m22:39:12.725133 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:39:12.726397 [info ] [MainThread]: 
+[0m22:39:12.727556 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+[0m22:39:12.728872 [debug] [MainThread]: Command `dbt run` succeeded at 22:39:12.728872 after 47.89 seconds
+[0m22:39:12.729908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D3E2D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D1DABD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D68B6150>]}
+[0m22:39:12.729908 [debug] [MainThread]: Flushing usage events
+[0m22:39:14.504586 [debug] [MainThread]: An error was encountered while trying to flush usage events

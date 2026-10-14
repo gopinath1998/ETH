@@ -13,7 +13,7 @@ select
  as total_usd_value
 
 from DBT.DBT_NLM.stg_token_transfers t
-left join DBT.DBT_NLM.stablecoins s
+left join seeds.DBT_NLM_static.stablecoins s
 on t.token_address=s.contract_address
 
 where s.contract_address is null 

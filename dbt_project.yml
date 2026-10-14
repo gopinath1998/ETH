@@ -56,7 +56,6 @@ dispatch:
   - macro_namespace:  dbt_utils
     search_order: ['eth','dbt_utils']
 
-
 packages:
   - package: dbt-labs/audit_helper
     version: 0.14.0

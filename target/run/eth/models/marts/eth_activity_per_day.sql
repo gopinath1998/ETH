@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM.eth_activity_per_day
+create or replace transient table DBT.DBT_NLM_marts.eth_activity_per_day
     
 
     
