@@ -14884,3 +14884,2123 @@ group by date, transaction_category
 [0m22:39:12.729908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D3E2D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D1DABD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247D68B6150>]}
 [0m22:39:12.729908 [debug] [MainThread]: Flushing usage events
 [0m22:39:14.504586 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:31:10.592734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158697342F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015866627770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158698D0080>]}
+
+
+============================== 10:31:10.599844 | 78432042-a29c-41d0-9c61-1e2d518a7472 ==============================
+[0m10:31:10.599844 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:31:10.600861 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:31:10.883708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '78432042-a29c-41d0-9c61-1e2d518a7472', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015869DED310>]}
+[0m10:31:10.919257 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:31:10.921259 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:31:10.923524 [debug] [MainThread]: Command `cli deps` succeeded at 10:31:10.923524 after 0.59 seconds
+[0m10:31:10.924846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015869C12C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001586AEC42C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001586AEC78F0>]}
+[0m10:31:10.924846 [debug] [MainThread]: Flushing usage events
+[0m10:31:12.548510 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:32:28.596764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122C332C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021229FF2570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122CA46B70>]}
+
+
+============================== 10:32:28.600766 | 0f51a591-3ed1-4d99-aecb-b115304baadf ==============================
+[0m10:32:28.600766 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:32:28.601765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run -s python_model', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:32:29.145950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122EDF3AA0>]}
+[0m10:32:29.206551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122F0BCD70>]}
+[0m10:32:29.209560 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:32:29.653170 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:32:29.876923 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:32:29.876923 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:32:29.949406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122E963FB0>]}
+[0m10:32:30.111436 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:32:30.156637 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:32:30.179738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122F0BD100>]}
+[0m10:32:30.179738 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:32:30.179738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122F4A4350>]}
+[0m10:32:30.182195 [info ] [MainThread]: 
+[0m10:32:30.184207 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:32:30.184207 [info ] [MainThread]: 
+[0m10:32:30.184207 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:32:30.186492 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:32:33.558993 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:32:33.560351 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:32:33.560351 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:32:38.745796 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 5.190 seconds
+[0m10:32:38.771500 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM'
+[0m10:32:38.793681 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:32:38.793681 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:32:38.793681 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:32:41.663067 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.862 seconds
+[0m10:32:41.677042 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:32:41.677042 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:32:41.863373 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.182 seconds
+[0m10:32:41.872366 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:32:41.873363 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:32:41.977560 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.108 seconds
+[0m10:32:41.977560 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM, now list_seeds_DBT_NLM_static)
+[0m10:32:41.996865 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:32:41.996865 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:32:42.119838 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.113 seconds
+[0m10:32:42.127836 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:32:42.128500 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:32:42.277588 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.151 seconds
+[0m10:32:42.277588 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:32:42.277588 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:32:42.372090 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.083 seconds
+[0m10:32:42.378593 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM_marts)
+[0m10:32:42.390892 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:32:42.392891 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:32:42.494381 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.102 seconds
+[0m10:32:42.498204 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:32:42.498204 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:32:42.699656 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.191 seconds
+[0m10:32:42.699656 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:32:42.711341 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:32:42.803808 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m10:32:42.812751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122FCAB9E0>]}
+[0m10:32:42.843934 [debug] [Thread-1 (]: Began running node model.eth.python_model
+[0m10:32:42.843934 [info ] [Thread-1 (]: 1 of 1 START python table model DBT_NLM_marts.python_model ..................... [RUN]
+[0m10:32:42.845738 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.python_model'
+[0m10:32:42.845738 [debug] [Thread-1 (]: Began compiling node model.eth.python_model
+[0m10:32:42.887910 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.python_model"
+[0m10:32:42.888909 [debug] [Thread-1 (]: Began executing node model.eth.python_model
+[0m10:32:42.919175 [debug] [Thread-1 (]: Writing runtime python for node "model.eth.python_model"
+[0m10:32:42.922133 [debug] [Thread-1 (]: Using snowflake connection "model.eth.python_model"
+[0m10:32:42.923168 [debug] [Thread-1 (]: On model.eth.python_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.python_model"} */
+WITH python_model__dbt_sp AS PROCEDURE ()
+
+RETURNS STRING
+LANGUAGE PYTHON
+RUNTIME_VERSION = '3.9'
+PACKAGES = ('snowflake-snowpark-python')
+
+
+
+HANDLER = 'main'
+EXECUTE AS CALLER
+AS
+$$
+
+import sys
+sys._xoptions['snowflake_partner_attribution'].append("dbtLabs_dbtPython")
+
+
+  
+    
+
+def model(dbt,session):
+    my_sql_model_df=db.ref("stable_coin_activity_per_day")
+
+    return my_sql_model_df
+
+
+# This part is user provided model code
+# you will need to copy the next section to run the code
+# COMMAND ----------
+# this part is dbt logic for get ref work, do not modify
+
+def ref(*args, **kwargs):
+    refs = {}
+    key = '.'.join(args)
+    version = kwargs.get("v") or kwargs.get("version")
+    if version:
+        key += f".v{version}"
+    dbt_load_df_function = kwargs.get("dbt_load_df_function")
+    return dbt_load_df_function(refs[key])
+
+
+def source(*args, dbt_load_df_function):
+    sources = {}
+    key = '.'.join(args)
+    return dbt_load_df_function(sources[key])
+
+
+config_dict = {}
+
+
+class config:
+    def __init__(self, *args, **kwargs):
+        pass
+
+    @staticmethod
+    def get(key, default=None):
+        return config_dict.get(key, default)
+
+class this:
+    """dbt.this() or dbt.this.identifier"""
+    database = "DBT"
+    schema = "DBT_NLM_marts"
+    identifier = "python_model"
+    
+    def __repr__(self):
+        return 'DBT.DBT_NLM_marts.python_model'
+
+
+class dbtObj:
+    def __init__(self, load_df_function) -> None:
+        self.source = lambda *args: source(*args, dbt_load_df_function=load_df_function)
+        self.ref = lambda *args, **kwargs: ref(*args, **kwargs, dbt_load_df_function=load_df_function)
+        self.config = config
+        self.this = this()
+        self.is_incremental = False
+
+# COMMAND ----------
+
+
+
+
+
+def materialize(session, df, target_relation):
+    # make sure pandas exists
+    import importlib.util
+    package_name = 'pandas'
+    if importlib.util.find_spec(package_name):
+        import pandas
+        if isinstance(df, pandas.core.frame.DataFrame):
+            session.use_database(target_relation.database)
+            session.use_schema(target_relation.schema)
+            # session.write_pandas does not have overwrite function
+            df = session.createDataFrame(df)
+    
+    df.write.mode("overwrite").save_as_table('DBT.DBT_NLM_marts.python_model', table_type='transient')
+
+
+def main(session):
+    dbt = dbtObj(session.table)
+    df = model(dbt, session)
+    materialize(session, df, dbt.this)
+    return "OK"
+
+
+  
+$$
+CALL python_model__dbt_sp();
+[0m10:32:42.923168 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:32:52.228367 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c7bd4e-0002-3328-000f-c97a000a101e
+[0m10:32:52.228367 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 100357 (P0000): Python Interpreter Error:
+Traceback (most recent call last):
+  File "_udf_code.py", line 89, in main
+    df = model(dbt, session)
+  File "_udf_code.py", line 11, in model
+    my_sql_model_df=db.ref("stable_coin_activity_per_day")
+NameError: name 'db' is not defined
+ in function PYTHON_MODEL__DBT_SP with handler main
+[0m10:32:52.253687 [debug] [Thread-1 (]: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "_udf_code.py", line 89, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 11, in model
+      my_sql_model_df=db.ref("stable_coin_activity_per_day")
+  NameError: name 'db' is not defined
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:32:52.255686 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0f51a591-3ed1-4d99-aecb-b115304baadf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002123041ECC0>]}
+[0m10:32:52.256685 [error] [Thread-1 (]: 1 of 1 ERROR creating python table model DBT_NLM_marts.python_model ............ [[31mERROR[0m in 9.41s]
+[0m10:32:52.257672 [debug] [Thread-1 (]: Finished running node model.eth.python_model
+[0m10:32:52.259336 [debug] [Thread-4 (]: Marking all children of 'model.eth.python_model' to be skipped because of status 'error'.  Reason: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "_udf_code.py", line 89, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 11, in model
+      my_sql_model_df=db.ref("stable_coin_activity_per_day")
+  NameError: name 'db' is not defined
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py.
+[0m10:32:52.261387 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:32:52.261387 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:32:52.262543 [debug] [MainThread]: On list_DBT: Close
+[0m10:32:52.375949 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM_marts' was left open.
+[0m10:32:52.377119 [debug] [MainThread]: On list_DBT_DBT_NLM_marts: Close
+[0m10:32:53.068012 [debug] [MainThread]: Connection 'model.eth.python_model' was left open.
+[0m10:32:53.070012 [debug] [MainThread]: On model.eth.python_model: Close
+[0m10:32:53.192755 [info ] [MainThread]: 
+[0m10:32:53.194782 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 23.01 seconds (23.01s).
+[0m10:32:53.197827 [debug] [MainThread]: Command end result
+[0m10:32:53.238531 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:32:53.240945 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:32:53.248584 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:32:53.249550 [info ] [MainThread]: 
+[0m10:32:53.249550 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:32:53.249550 [info ] [MainThread]: 
+[0m10:32:53.251059 [error] [MainThread]:   Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "_udf_code.py", line 89, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 11, in model
+      my_sql_model_df=db.ref("stable_coin_activity_per_day")
+  NameError: name 'db' is not defined
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:32:53.252065 [info ] [MainThread]: 
+[0m10:32:53.252065 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m10:32:53.254143 [debug] [MainThread]: Command `dbt run` failed at 10:32:53.253142 after 24.78 seconds
+[0m10:32:53.254143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122C2DCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122A971340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002122F37A4B0>]}
+[0m10:32:53.254143 [debug] [MainThread]: Flushing usage events
+[0m10:32:54.838444 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:33:39.236140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA1826CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA13AB3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA1825A60>]}
+
+
+============================== 10:33:39.241236 | ea322109-547d-4640-b152-f5738dc3cbc9 ==============================
+[0m10:33:39.241236 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:33:39.242238 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run -s python_model', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:33:39.811601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA3ED2720>]}
+[0m10:33:39.873887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA3CA5880>]}
+[0m10:33:39.873887 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:33:40.216284 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:33:40.415605 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:33:40.415605 [debug] [MainThread]: Partial parsing: updated file: eth://models\marts\python_model.py
+[0m10:33:40.804924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA44A9700>]}
+[0m10:33:40.923495 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:33:40.941177 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:33:40.961317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA45910A0>]}
+[0m10:33:40.963610 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:33:40.965051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA44AA510>]}
+[0m10:33:40.965051 [info ] [MainThread]: 
+[0m10:33:40.967061 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:33:40.967061 [info ] [MainThread]: 
+[0m10:33:40.968489 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:33:40.968489 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:33:41.064494 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:33:41.066748 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:33:41.066748 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:33:44.001626 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.934 seconds
+[0m10:33:44.008467 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_seeds_DBT_NLM_static'
+[0m10:33:44.042473 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:33:44.043475 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:33:44.043475 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:33:46.563971 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.520 seconds
+[0m10:33:46.569966 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:33:46.569966 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:33:46.745342 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.174 seconds
+[0m10:33:46.752342 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:33:46.753341 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:33:46.848952 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.094 seconds
+[0m10:33:46.855956 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m10:33:46.857462 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:33:46.857462 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:33:46.967722 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m10:33:46.967722 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:33:46.973405 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:33:47.157185 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.192 seconds
+[0m10:33:47.173147 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:33:47.174101 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:33:48.513584 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 1.338 seconds
+[0m10:33:48.523585 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM, now list_DBT_DBT_NLM_marts)
+[0m10:33:48.534831 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:33:48.534831 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:33:48.634108 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m10:33:48.636149 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:33:48.637145 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:33:48.778255 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.141 seconds
+[0m10:33:48.782255 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:33:48.782255 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:33:48.876166 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m10:33:48.887218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA479EFF0>]}
+[0m10:33:48.899864 [debug] [Thread-1 (]: Began running node model.eth.python_model
+[0m10:33:48.901863 [info ] [Thread-1 (]: 1 of 1 START python table model DBT_NLM_marts.python_model ..................... [RUN]
+[0m10:33:48.904905 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.python_model'
+[0m10:33:48.905904 [debug] [Thread-1 (]: Began compiling node model.eth.python_model
+[0m10:33:48.944899 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.python_model"
+[0m10:33:48.945871 [debug] [Thread-1 (]: Began executing node model.eth.python_model
+[0m10:33:48.974126 [debug] [Thread-1 (]: Writing runtime python for node "model.eth.python_model"
+[0m10:33:48.976201 [debug] [Thread-1 (]: Using snowflake connection "model.eth.python_model"
+[0m10:33:48.976201 [debug] [Thread-1 (]: On model.eth.python_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.python_model"} */
+WITH python_model__dbt_sp AS PROCEDURE ()
+
+RETURNS STRING
+LANGUAGE PYTHON
+RUNTIME_VERSION = '3.9'
+PACKAGES = ('snowflake-snowpark-python')
+
+
+
+HANDLER = 'main'
+EXECUTE AS CALLER
+AS
+$$
+
+import sys
+sys._xoptions['snowflake_partner_attribution'].append("dbtLabs_dbtPython")
+
+
+  
+    
+
+def model(dbt,session):
+    my_sql_model_df=dbt.ref("stable_coin_activity_per_day")
+    ##my_sql_model_df=db.source("eth","contracts")
+
+    return my_sql_model_df
+
+
+# This part is user provided model code
+# you will need to copy the next section to run the code
+# COMMAND ----------
+# this part is dbt logic for get ref work, do not modify
+
+def ref(*args, **kwargs):
+    refs = {"stable_coin_activity_per_day": "DBT.DBT_NLM_marts.stable_coin_activity_per_day"}
+    key = '.'.join(args)
+    version = kwargs.get("v") or kwargs.get("version")
+    if version:
+        key += f".v{version}"
+    dbt_load_df_function = kwargs.get("dbt_load_df_function")
+    return dbt_load_df_function(refs[key])
+
+
+def source(*args, dbt_load_df_function):
+    sources = {}
+    key = '.'.join(args)
+    return dbt_load_df_function(sources[key])
+
+
+config_dict = {}
+
+
+class config:
+    def __init__(self, *args, **kwargs):
+        pass
+
+    @staticmethod
+    def get(key, default=None):
+        return config_dict.get(key, default)
+
+class this:
+    """dbt.this() or dbt.this.identifier"""
+    database = "DBT"
+    schema = "DBT_NLM_marts"
+    identifier = "python_model"
+    
+    def __repr__(self):
+        return 'DBT.DBT_NLM_marts.python_model'
+
+
+class dbtObj:
+    def __init__(self, load_df_function) -> None:
+        self.source = lambda *args: source(*args, dbt_load_df_function=load_df_function)
+        self.ref = lambda *args, **kwargs: ref(*args, **kwargs, dbt_load_df_function=load_df_function)
+        self.config = config
+        self.this = this()
+        self.is_incremental = False
+
+# COMMAND ----------
+
+
+
+
+
+def materialize(session, df, target_relation):
+    # make sure pandas exists
+    import importlib.util
+    package_name = 'pandas'
+    if importlib.util.find_spec(package_name):
+        import pandas
+        if isinstance(df, pandas.core.frame.DataFrame):
+            session.use_database(target_relation.database)
+            session.use_schema(target_relation.schema)
+            # session.write_pandas does not have overwrite function
+            df = session.createDataFrame(df)
+    
+    df.write.mode("overwrite").save_as_table('DBT.DBT_NLM_marts.python_model', table_type='transient')
+
+
+def main(session):
+    dbt = dbtObj(session.table)
+    df = model(dbt, session)
+    materialize(session, df, dbt.this)
+    return "OK"
+
+
+  
+$$
+CALL python_model__dbt_sp();
+[0m10:33:48.977251 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:33:55.052622 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 6.076 seconds
+[0m10:33:55.072984 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ea322109-547d-4640-b152-f5738dc3cbc9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA11380E0>]}
+[0m10:33:55.088489 [info ] [Thread-1 (]: 1 of 1 OK created python table model DBT_NLM_marts.python_model ................ [[32mSUCCESS 1[0m in 6.17s]
+[0m10:33:55.089950 [debug] [Thread-1 (]: Finished running node model.eth.python_model
+[0m10:33:55.090840 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:33:55.090840 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:33:55.092637 [debug] [MainThread]: On list_DBT: Close
+[0m10:33:55.198899 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM_marts' was left open.
+[0m10:33:55.198899 [debug] [MainThread]: On list_DBT_DBT_NLM_marts: Close
+[0m10:33:55.312083 [debug] [MainThread]: Connection 'model.eth.python_model' was left open.
+[0m10:33:55.312083 [debug] [MainThread]: On model.eth.python_model: Close
+[0m10:33:55.430842 [info ] [MainThread]: 
+[0m10:33:55.431845 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 14.46 seconds (14.46s).
+[0m10:33:55.432845 [debug] [MainThread]: Command end result
+[0m10:33:55.459576 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:33:55.462547 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:33:55.464626 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:33:55.464626 [info ] [MainThread]: 
+[0m10:33:55.464626 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:33:55.464626 [info ] [MainThread]: 
+[0m10:33:55.473823 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:33:55.474635 [debug] [MainThread]: Command `dbt run` succeeded at 10:33:55.474635 after 16.37 seconds
+[0m10:33:55.476647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA1450350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA116FF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA44A90D0>]}
+[0m10:33:55.476647 [debug] [MainThread]: Flushing usage events
+[0m10:33:56.957523 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:47:32.536279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DB1D7800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DB1D6A20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DB1D6600>]}
+
+
+============================== 10:47:32.542145 | 0f93d3c1-0b74-405f-9f1d-5cd430e9cb92 ==============================
+[0m10:47:32.542145 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:47:32.543145 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run -s python_model', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:47:33.595518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DC843AA0>]}
+[0m10:47:33.655889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DD6BF380>]}
+[0m10:47:33.655889 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:47:34.154570 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:47:35.688451 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:47:35.688451 [debug] [MainThread]: Partial parsing: updated file: eth://models\marts\python_model.py
+[0m10:47:36.034173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DDE5D880>]}
+[0m10:47:36.143740 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:47:36.209138 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:47:36.237306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DDECE090>]}
+[0m10:47:36.237306 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:47:36.237306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DDBFB2C0>]}
+[0m10:47:36.249211 [info ] [MainThread]: 
+[0m10:47:36.249211 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:47:36.249211 [info ] [MainThread]: 
+[0m10:47:36.249211 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:47:36.252209 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:47:39.054169 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:47:39.054169 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:47:39.054169 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:47:42.438954 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.381 seconds
+[0m10:47:42.461258 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_seeds_DBT_NLM_static'
+[0m10:47:42.471203 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:47:42.471203 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:47:42.471203 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:47:45.037915 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.556 seconds
+[0m10:47:45.037915 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:47:45.037915 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:47:45.227173 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.176 seconds
+[0m10:47:45.232176 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:47:45.234181 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:47:45.321422 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.086 seconds
+[0m10:47:45.327215 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM_marts)
+[0m10:47:45.334204 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:47:45.335207 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:47:45.437507 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.103 seconds
+[0m10:47:45.437507 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:47:45.437507 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:47:45.573045 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.127 seconds
+[0m10:47:45.573045 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:47:45.573045 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:47:45.654400 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m10:47:45.671727 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_DBT_DBT_NLM)
+[0m10:47:45.677823 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:47:45.677823 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:47:45.787178 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.100 seconds
+[0m10:47:45.793250 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:47:45.794251 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:47:45.973628 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.178 seconds
+[0m10:47:45.980630 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:47:45.981626 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:47:46.066862 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.085 seconds
+[0m10:47:46.079904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DD6E75F0>]}
+[0m10:47:46.087927 [debug] [Thread-1 (]: Began running node model.eth.python_model
+[0m10:47:46.087927 [info ] [Thread-1 (]: 1 of 1 START python table model DBT_NLM_marts.python_model ..................... [RUN]
+[0m10:47:46.087927 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.python_model'
+[0m10:47:46.087927 [debug] [Thread-1 (]: Began compiling node model.eth.python_model
+[0m10:47:46.136242 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.python_model"
+[0m10:47:46.137901 [debug] [Thread-1 (]: Began executing node model.eth.python_model
+[0m10:47:46.165129 [debug] [Thread-1 (]: Writing runtime python for node "model.eth.python_model"
+[0m10:47:46.167130 [debug] [Thread-1 (]: Using snowflake connection "model.eth.python_model"
+[0m10:47:46.168129 [debug] [Thread-1 (]: On model.eth.python_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.python_model"} */
+WITH python_model__dbt_sp AS PROCEDURE ()
+
+RETURNS STRING
+LANGUAGE PYTHON
+RUNTIME_VERSION = '3.9'
+PACKAGES = ('holidays', 'snowflake-snowpark-python')
+
+
+
+HANDLER = 'main'
+EXECUTE AS CALLER
+AS
+$$
+
+import sys
+sys._xoptions['snowflake_partner_attribution'].append("dbtLabs_dbtPython")
+
+
+  
+    
+
+import holidays
+
+def is_holiday(date_col):
+    french_holidays=holidays.France()
+    is_holiday=(date_col in french_holidays )
+    return is_holiday
+
+
+
+def model(dbt,session):
+
+    dbt.config(packages=['holidays'])
+    my_sql_model_df=dbt.ref("stable_coin_activity_per_day")
+    #my_sql_model_df=dbt.source("eth","contracts")
+
+    my_sql_model_df=my_sql_model_df.to_pandas()
+    my_sql_model_df["is_holiday"] = my_sql_model_df["DATE"].apply(is_holiday)
+
+    return my_sql_model_df
+
+
+# This part is user provided model code
+# you will need to copy the next section to run the code
+# COMMAND ----------
+# this part is dbt logic for get ref work, do not modify
+
+def ref(*args, **kwargs):
+    refs = {"stable_coin_activity_per_day": "DBT.DBT_NLM_marts.stable_coin_activity_per_day"}
+    key = '.'.join(args)
+    version = kwargs.get("v") or kwargs.get("version")
+    if version:
+        key += f".v{version}"
+    dbt_load_df_function = kwargs.get("dbt_load_df_function")
+    return dbt_load_df_function(refs[key])
+
+
+def source(*args, dbt_load_df_function):
+    sources = {}
+    key = '.'.join(args)
+    return dbt_load_df_function(sources[key])
+
+
+config_dict = {}
+
+
+class config:
+    def __init__(self, *args, **kwargs):
+        pass
+
+    @staticmethod
+    def get(key, default=None):
+        return config_dict.get(key, default)
+
+class this:
+    """dbt.this() or dbt.this.identifier"""
+    database = "DBT"
+    schema = "DBT_NLM_marts"
+    identifier = "python_model"
+    
+    def __repr__(self):
+        return 'DBT.DBT_NLM_marts.python_model'
+
+
+class dbtObj:
+    def __init__(self, load_df_function) -> None:
+        self.source = lambda *args: source(*args, dbt_load_df_function=load_df_function)
+        self.ref = lambda *args, **kwargs: ref(*args, **kwargs, dbt_load_df_function=load_df_function)
+        self.config = config
+        self.this = this()
+        self.is_incremental = False
+
+# COMMAND ----------
+
+
+
+
+
+def materialize(session, df, target_relation):
+    # make sure pandas exists
+    import importlib.util
+    package_name = 'pandas'
+    if importlib.util.find_spec(package_name):
+        import pandas
+        if isinstance(df, pandas.core.frame.DataFrame):
+            session.use_database(target_relation.database)
+            session.use_schema(target_relation.schema)
+            # session.write_pandas does not have overwrite function
+            df = session.createDataFrame(df)
+    
+    df.write.mode("overwrite").save_as_table('DBT.DBT_NLM_marts.python_model', table_type='transient')
+
+
+def main(session):
+    dbt = dbtObj(session.table)
+    df = model(dbt, session)
+    materialize(session, df, dbt.this)
+    return "OK"
+
+
+  
+$$
+CALL python_model__dbt_sp();
+[0m10:47:46.169147 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:52:56.396960 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c7bd5d-0002-331c-000f-c97a000a0072
+[0m10:52:56.396960 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 100357 (P0000): Python Interpreter Error:
+Traceback (most recent call last):
+  File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+    self.check_can_use_pandas()
+  File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+    Error.errorhandler_wrapper(
+  File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "_udf_code.py", line 104, in main
+    df = model(dbt, session)
+  File "_udf_code.py", line 25, in model
+    my_sql_model_df=my_sql_model_df.to_pandas()
+  File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+    result = self._session._conn.execute(
+snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+ in function PYTHON_MODEL__DBT_SP with handler main
+[0m10:52:56.417599 [debug] [Thread-1 (]: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:52:56.421634 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0f93d3c1-0b74-405f-9f1d-5cd430e9cb92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DAAE8E90>]}
+[0m10:52:56.422669 [error] [Thread-1 (]: 1 of 1 ERROR creating python table model DBT_NLM_marts.python_model ............ [[31mERROR[0m in 310.33s]
+[0m10:52:56.423757 [debug] [Thread-1 (]: Finished running node model.eth.python_model
+[0m10:52:56.424920 [debug] [Thread-4 (]: Marking all children of 'model.eth.python_model' to be skipped because of status 'error'.  Reason: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py.
+[0m10:52:56.428419 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:52:56.429940 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:52:56.429940 [debug] [MainThread]: On list_DBT: Close
+[0m10:52:57.728659 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m10:52:57.728659 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m10:52:57.968163 [debug] [MainThread]: Connection 'model.eth.python_model' was left open.
+[0m10:52:57.968163 [debug] [MainThread]: On model.eth.python_model: Close
+[0m10:52:58.068981 [info ] [MainThread]: 
+[0m10:52:58.068981 [info ] [MainThread]: Finished running 1 table model in 0 hours 5 minutes and 21.82 seconds (321.82s).
+[0m10:52:58.070991 [debug] [MainThread]: Command end result
+[0m10:52:58.105389 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:52:58.112152 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:52:58.117796 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:52:58.117796 [info ] [MainThread]: 
+[0m10:52:58.123122 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:52:58.124180 [info ] [MainThread]: 
+[0m10:52:58.125190 [error] [MainThread]:   Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:52:58.126195 [info ] [MainThread]: 
+[0m10:52:58.126195 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m10:52:58.127227 [debug] [MainThread]: Command `dbt run` failed at 10:52:58.127227 after 325.74 seconds
+[0m10:52:58.128396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DD8B8560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DD68E450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8DDA2DB80>]}
+[0m10:52:58.129456 [debug] [MainThread]: Flushing usage events
+[0m10:52:59.672219 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:55:09.645420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714F9F66F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714F2BED80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714F2BFFE0>]}
+
+
+============================== 10:55:09.652145 | cc3216c7-5039-43a0-a8b6-52faf3d32db0 ==============================
+[0m10:55:09.652145 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:55:09.652145 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run -s python_model', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:13.372516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017160D5B500>]}
+[0m10:55:13.451326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714FE2F170>]}
+[0m10:55:13.454451 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:55:14.157999 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:55:14.408203 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:55:14.409205 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:55:14.484484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714FDD74D0>]}
+[0m10:55:14.620554 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:55:14.645043 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:55:14.691235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017162534590>]}
+[0m10:55:14.692236 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:55:14.693235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017161FFB4D0>]}
+[0m10:55:14.695234 [info ] [MainThread]: 
+[0m10:55:14.695234 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:55:14.696233 [info ] [MainThread]: 
+[0m10:55:14.696233 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:55:14.698233 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:55:16.398084 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:55:16.399082 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:55:16.399082 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:55:19.711820 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.313 seconds
+[0m10:55:19.717449 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM_marts'
+[0m10:55:19.819145 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:55:19.819145 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:55:19.819145 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:55:22.310597 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.483 seconds
+[0m10:55:22.315595 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:55:22.317030 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:55:22.480711 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.163 seconds
+[0m10:55:22.482713 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:55:22.483715 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:55:22.572752 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m10:55:22.572752 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_seeds_DBT_NLM_static)
+[0m10:55:22.572752 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:55:22.583390 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:55:22.677542 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.094 seconds
+[0m10:55:22.679539 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:55:22.680543 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:55:22.833885 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.154 seconds
+[0m10:55:22.833885 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:55:22.833885 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:55:22.916984 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m10:55:22.916984 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m10:55:22.916984 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:55:22.916984 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:55:23.007737 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m10:55:23.009741 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:55:23.009741 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:55:23.150837 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.154 seconds
+[0m10:55:23.167000 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:55:23.167000 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:55:23.250328 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m10:55:23.253869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001716325BAA0>]}
+[0m10:55:23.258858 [debug] [Thread-1 (]: Began running node model.eth.python_model
+[0m10:55:23.259927 [info ] [Thread-1 (]: 1 of 1 START python table model DBT_NLM_marts.python_model ..................... [RUN]
+[0m10:55:23.260926 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.python_model'
+[0m10:55:23.261957 [debug] [Thread-1 (]: Began compiling node model.eth.python_model
+[0m10:55:23.310747 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.python_model"
+[0m10:55:23.312709 [debug] [Thread-1 (]: Began executing node model.eth.python_model
+[0m10:55:23.350712 [debug] [Thread-1 (]: Writing runtime python for node "model.eth.python_model"
+[0m10:55:23.353450 [debug] [Thread-1 (]: Using snowflake connection "model.eth.python_model"
+[0m10:55:23.353450 [debug] [Thread-1 (]: On model.eth.python_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.python_model"} */
+WITH python_model__dbt_sp AS PROCEDURE ()
+
+RETURNS STRING
+LANGUAGE PYTHON
+RUNTIME_VERSION = '3.9'
+PACKAGES = ('holidays', 'snowflake-snowpark-python')
+
+
+
+HANDLER = 'main'
+EXECUTE AS CALLER
+AS
+$$
+
+import sys
+sys._xoptions['snowflake_partner_attribution'].append("dbtLabs_dbtPython")
+
+
+  
+    
+
+import holidays
+
+def is_holiday(date_col):
+    french_holidays=holidays.France()
+    is_holiday=(date_col in french_holidays )
+    return is_holiday
+
+
+
+def model(dbt,session):
+
+    dbt.config(packages=['holidays'])
+    my_sql_model_df=dbt.ref("stable_coin_activity_per_day")
+    #my_sql_model_df=dbt.source("eth","contracts")
+
+    my_sql_model_df=my_sql_model_df.to_pandas()
+    my_sql_model_df["is_holiday"] = my_sql_model_df["DATE"].apply(is_holiday)
+
+    return my_sql_model_df
+
+
+# This part is user provided model code
+# you will need to copy the next section to run the code
+# COMMAND ----------
+# this part is dbt logic for get ref work, do not modify
+
+def ref(*args, **kwargs):
+    refs = {"stable_coin_activity_per_day": "DBT.DBT_NLM_marts.stable_coin_activity_per_day"}
+    key = '.'.join(args)
+    version = kwargs.get("v") or kwargs.get("version")
+    if version:
+        key += f".v{version}"
+    dbt_load_df_function = kwargs.get("dbt_load_df_function")
+    return dbt_load_df_function(refs[key])
+
+
+def source(*args, dbt_load_df_function):
+    sources = {}
+    key = '.'.join(args)
+    return dbt_load_df_function(sources[key])
+
+
+config_dict = {}
+
+
+class config:
+    def __init__(self, *args, **kwargs):
+        pass
+
+    @staticmethod
+    def get(key, default=None):
+        return config_dict.get(key, default)
+
+class this:
+    """dbt.this() or dbt.this.identifier"""
+    database = "DBT"
+    schema = "DBT_NLM_marts"
+    identifier = "python_model"
+    
+    def __repr__(self):
+        return 'DBT.DBT_NLM_marts.python_model'
+
+
+class dbtObj:
+    def __init__(self, load_df_function) -> None:
+        self.source = lambda *args: source(*args, dbt_load_df_function=load_df_function)
+        self.ref = lambda *args, **kwargs: ref(*args, **kwargs, dbt_load_df_function=load_df_function)
+        self.config = config
+        self.this = this()
+        self.is_incremental = False
+
+# COMMAND ----------
+
+
+
+
+
+def materialize(session, df, target_relation):
+    # make sure pandas exists
+    import importlib.util
+    package_name = 'pandas'
+    if importlib.util.find_spec(package_name):
+        import pandas
+        if isinstance(df, pandas.core.frame.DataFrame):
+            session.use_database(target_relation.database)
+            session.use_schema(target_relation.schema)
+            # session.write_pandas does not have overwrite function
+            df = session.createDataFrame(df)
+    
+    df.write.mode("overwrite").save_as_table('DBT.DBT_NLM_marts.python_model', table_type='transient')
+
+
+def main(session):
+    dbt = dbtObj(session.table)
+    df = model(dbt, session)
+    materialize(session, df, dbt.this)
+    return "OK"
+
+
+  
+$$
+CALL python_model__dbt_sp();
+[0m10:55:23.353450 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:56:08.702968 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c7bd65-0002-331c-000f-c97a000a00a6
+[0m10:56:08.703936 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 100357 (P0000): Python Interpreter Error:
+Traceback (most recent call last):
+  File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+    self.check_can_use_pandas()
+  File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+    Error.errorhandler_wrapper(
+  File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "_udf_code.py", line 104, in main
+    df = model(dbt, session)
+  File "_udf_code.py", line 25, in model
+    my_sql_model_df=my_sql_model_df.to_pandas()
+  File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+    result = self._session._conn.execute(
+snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+ in function PYTHON_MODEL__DBT_SP with handler main
+[0m10:56:08.717925 [debug] [Thread-1 (]: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:56:08.727824 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'cc3216c7-5039-43a0-a8b6-52faf3d32db0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714F2886B0>]}
+[0m10:56:08.727824 [error] [Thread-1 (]: 1 of 1 ERROR creating python table model DBT_NLM_marts.python_model ............ [[31mERROR[0m in 45.46s]
+[0m10:56:08.731027 [debug] [Thread-1 (]: Finished running node model.eth.python_model
+[0m10:56:08.731459 [debug] [Thread-4 (]: Marking all children of 'model.eth.python_model' to be skipped because of status 'error'.  Reason: Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py.
+[0m10:56:08.734186 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:56:08.735223 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:56:08.735223 [debug] [MainThread]: On list_DBT: Close
+[0m10:56:08.858481 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m10:56:08.858481 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m10:56:08.965792 [debug] [MainThread]: Connection 'model.eth.python_model' was left open.
+[0m10:56:08.965792 [debug] [MainThread]: On model.eth.python_model: Close
+[0m10:56:09.081943 [info ] [MainThread]: 
+[0m10:56:09.082980 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 54.39 seconds (54.39s).
+[0m10:56:09.084942 [debug] [MainThread]: Command end result
+[0m10:56:09.115331 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:56:09.122150 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:56:09.134790 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:56:09.135788 [info ] [MainThread]: 
+[0m10:56:09.136793 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:56:09.136793 [info ] [MainThread]: 
+[0m10:56:09.137788 [error] [MainThread]:   Database Error in model python_model (models\marts\python_model.py)
+  100357 (P0000): Python Interpreter Error:
+  Traceback (most recent call last):
+    File "<site-packages>/snowflake/connector/cursor.py", line 1435, in fetch_pandas_all
+      self.check_can_use_pandas()
+    File "<site-packages>/snowflake/connector/cursor.py", line 1291, in check_can_use_pandas
+      Error.errorhandler_wrapper(
+    File "<site-packages>/snowflake/connector/errors.py", line 298, in errorhandler_wrapper
+      handed_over = Error.hand_to_other_handler(
+    File "<site-packages>/snowflake/connector/errors.py", line 354, in hand_to_other_handler
+      cursor.errorhandler(connection, cursor, error_class, error_value)
+    File "<site-packages>/snowflake/connector/errors.py", line 229, in default_errorhandler
+      raise error_class(
+  snowflake.connector.errors.ProgrammingError: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "_udf_code.py", line 104, in main
+      df = model(dbt, session)
+    File "_udf_code.py", line 25, in model
+      my_sql_model_df=my_sql_model_df.to_pandas()
+    File "<site-packages>/snowflake/snowpark/dataframe.py", line 1149, in to_pandas
+      result = self._session._conn.execute(
+  snowflake.snowpark.exceptions.SnowparkFetchDataException: (1406): Failed to fetch a pandas Dataframe. The error is: 255002: Optional dependency: 'pandas' is not installed, please see the following link for install instructions: https://docs.snowflake.com/en/user-guide/python-connector-pandas.html#installation
+   in function PYTHON_MODEL__DBT_SP with handler main
+  compiled code at target\run\eth\models\marts\python_model.py
+[0m10:56:09.138787 [info ] [MainThread]: 
+[0m10:56:09.139978 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m10:56:09.141143 [debug] [MainThread]: Command `dbt run` failed at 10:56:09.141143 after 59.65 seconds
+[0m10:56:09.142427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714DA31F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714DA31A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001714F43BFB0>]}
+[0m10:56:09.142427 [debug] [MainThread]: Flushing usage events
+[0m10:56:10.767463 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:38:57.195817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF2292DE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF29F7BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF2989FD0>]}
+
+
+============================== 10:38:57.203736 | f0ebe1e4-db82-4691-aa7f-ead8af472dba ==============================
+[0m10:38:57.203736 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:38:57.204756 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'c:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:57.592808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f0ebe1e4-db82-4691-aa7f-ead8af472dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF2DD3B30>]}
+[0m10:38:57.651778 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:38:57.657522 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:38:57.660612 [debug] [MainThread]: Command `cli deps` succeeded at 10:38:57.659610 after 0.78 seconds
+[0m10:38:57.661610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF2952B40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF22BC470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEF3F226F0>]}
+[0m10:38:57.662611 [debug] [MainThread]: Flushing usage events
+[0m10:38:59.875947 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:48:10.138521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B16DDD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B470E0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B4B1D970>]}
+
+
+============================== 10:48:10.138521 | 715cc067-5d12-4468-be38-f72f14436aa7 ==============================
+[0m10:48:10.138521 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:48:10.138521 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'send_anonymous_usage_stats': 'True'}
+[0m10:48:10.957604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B4DDC5C0>]}
+[0m10:48:11.022966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C5EF7AD0>]}
+[0m10:48:11.022966 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:48:11.477201 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:48:11.658864 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:48:11.658864 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:48:11.722055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C6F374D0>]}
+[0m10:48:11.816964 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:48:11.864560 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:48:11.880609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C745C830>]}
+[0m10:48:11.880609 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:48:11.896432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C6FDD9D0>]}
+[0m10:48:11.897530 [info ] [MainThread]: 
+[0m10:48:11.897530 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:48:11.897530 [info ] [MainThread]: 
+[0m10:48:11.897530 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:48:11.901287 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:48:14.644858 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:48:14.644858 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:48:14.646865 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:48:19.260294 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 4.620 seconds
+[0m10:48:19.291915 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM'
+[0m10:48:19.321831 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:48:19.321831 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:48:19.321831 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:48:21.806437 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.488 seconds
+[0m10:48:21.806437 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:48:21.806437 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:48:21.984909 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.164 seconds
+[0m10:48:21.984909 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:48:21.984909 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:48:22.086707 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m10:48:22.096424 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM, now list_seeds_DBT_NLM_static)
+[0m10:48:22.096424 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:48:22.096424 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:48:22.201212 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m10:48:22.208170 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:48:22.210210 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:48:22.341241 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.128 seconds
+[0m10:48:22.341241 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:48:22.341241 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:48:22.438225 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m10:48:22.438225 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM_marts)
+[0m10:48:22.454025 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:48:22.454025 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:48:22.549916 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.087 seconds
+[0m10:48:22.553666 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:48:22.555682 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:48:23.190654 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.637 seconds
+[0m10:48:23.190654 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:48:23.190654 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:48:23.294850 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m10:48:23.310987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B2154EC0>]}
+[0m10:48:23.327091 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m10:48:23.328269 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m10:48:23.328269 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m10:48:23.328269 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m10:48:23.328269 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m10:48:23.343084 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m10:48:23.381324 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m10:48:23.384803 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m10:48:23.385834 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m10:48:23.385834 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:48:28.435756 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 5.054 seconds
+[0m10:48:28.467247 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m10:48:28.467247 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m10:48:28.655667 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.179 seconds
+[0m10:48:28.676461 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '715cc067-5d12-4468-be38-f72f14436aa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B206E630>]}
+[0m10:48:28.676461 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 5.33s]
+[0m10:48:28.676461 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m10:48:28.676461 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:48:28.676461 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:48:28.681009 [debug] [MainThread]: On list_DBT: Close
+[0m10:48:28.814955 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM_marts' was left open.
+[0m10:48:28.814955 [debug] [MainThread]: On list_DBT_DBT_NLM_marts: Close
+[0m10:48:28.941222 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m10:48:28.957290 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m10:48:29.084202 [info ] [MainThread]: 
+[0m10:48:29.094777 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 17.19 seconds (17.19s).
+[0m10:48:29.097414 [debug] [MainThread]: Command end result
+[0m10:48:29.156654 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:48:29.161123 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:48:29.167172 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:48:29.167172 [info ] [MainThread]: 
+[0m10:48:29.172144 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:48:29.172144 [info ] [MainThread]: 
+[0m10:48:29.172144 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:48:29.174154 [debug] [MainThread]: Command `dbt run` succeeded at 10:48:29.174154 after 19.16 seconds
+[0m10:48:29.174154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B470E0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C8285D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B42123F0>]}
+[0m10:48:29.176161 [debug] [MainThread]: Flushing usage events
+[0m10:48:30.713940 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:59:31.870899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE32CD7560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE30783080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE30783590>]}
+
+
+============================== 10:59:31.874902 | 706770e9-7258-47a8-9c76-01dbc75ff27f ==============================
+[0m10:59:31.874902 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:59:31.874902 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:59:32.684696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE3238E8D0>]}
+[0m10:59:32.751506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE42C83B30>]}
+[0m10:59:32.751506 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m10:59:33.160596 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m10:59:33.328101 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:59:33.328101 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:59:33.345396 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.eth.stablecoin_activity_per_day
+[0m10:59:33.409077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE452ECC50>]}
+[0m10:59:33.496197 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:59:33.524897 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:59:33.545919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE455CC7D0>]}
+[0m10:59:33.545919 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m10:59:33.545919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE45527D70>]}
+[0m10:59:33.548269 [info ] [MainThread]: 
+[0m10:59:33.548269 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:59:33.548269 [info ] [MainThread]: 
+[0m10:59:33.548269 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m10:59:33.548269 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m10:59:33.660449 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m10:59:33.660449 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m10:59:33.662461 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:59:36.612486 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.953 seconds
+[0m10:59:36.628259 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM_marts'
+[0m10:59:36.743561 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:59:36.743561 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:59:36.743561 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:59:39.314362 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.564 seconds
+[0m10:59:39.330094 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:59:39.330094 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m10:59:39.479548 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.160 seconds
+[0m10:59:39.492716 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m10:59:39.492716 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:59:39.614697 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.118 seconds
+[0m10:59:39.622288 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_seeds_DBT_NLM_static)
+[0m10:59:39.638439 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:59:39.638439 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:59:39.719495 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m10:59:39.735404 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:59:39.735404 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m10:59:39.913031 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.184 seconds
+[0m10:59:39.928383 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m10:59:39.928383 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:59:40.013930 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m10:59:40.025065 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m10:59:40.025065 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:59:40.025065 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m10:59:40.139331 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.102 seconds
+[0m10:59:40.139331 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:59:40.139331 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m10:59:40.285449 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.140 seconds
+[0m10:59:40.285449 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m10:59:40.285449 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m10:59:40.381698 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m10:59:40.381698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE4592FF50>]}
+[0m10:59:40.397621 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m10:59:40.397621 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m10:59:40.397621 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m10:59:40.397621 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m10:59:40.413695 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m10:59:40.414621 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m10:59:40.446568 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m10:59:40.446568 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m10:59:40.446568 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m10:59:40.446568 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m10:59:46.027657 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 5.573 seconds
+[0m10:59:46.070459 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m10:59:46.070459 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m10:59:46.254476 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.172 seconds
+[0m10:59:46.277396 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '706770e9-7258-47a8-9c76-01dbc75ff27f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE32358320>]}
+[0m10:59:46.277396 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 5.88s]
+[0m10:59:46.277396 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m10:59:46.277396 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:59:46.277396 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m10:59:46.277396 [debug] [MainThread]: On list_DBT: Close
+[0m10:59:46.795689 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m10:59:46.795689 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m10:59:46.908904 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m10:59:46.908904 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m10:59:47.021713 [info ] [MainThread]: 
+[0m10:59:47.037807 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 13.47 seconds (13.47s).
+[0m10:59:47.037807 [debug] [MainThread]: Command end result
+[0m10:59:47.064520 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m10:59:47.064520 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m10:59:47.064520 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m10:59:47.064520 [info ] [MainThread]: 
+[0m10:59:47.064520 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:59:47.064520 [info ] [MainThread]: 
+[0m10:59:47.077288 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:59:47.078902 [debug] [MainThread]: Command `dbt run` succeeded at 10:59:47.078902 after 15.35 seconds
+[0m10:59:47.078902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE32C0B380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE454FB5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE453C3380>]}
+[0m10:59:47.078902 [debug] [MainThread]: Flushing usage events
+[0m10:59:48.477672 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:07:53.789989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E79491E4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7920251F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E794F68C80>]}
+
+
+============================== 11:07:53.793989 | bfd7c522-16ba-47c2-8c30-ea0e5525e61e ==============================
+[0m11:07:53.793989 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:07:53.794989 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:07:54.872020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A69BC260>]}
+[0m11:07:54.939375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A5C038F0>]}
+[0m11:07:54.939375 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m11:07:55.385555 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m11:07:55.634020 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:07:55.634020 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:07:55.649718 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.eth.stablecoin_activity_per_day
+[0m11:07:55.726872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7AE4230>]}
+[0m11:07:55.887352 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:07:55.908342 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:07:55.933368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7F7C830>]}
+[0m11:07:55.933368 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m11:07:55.934771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A5C295B0>]}
+[0m11:07:55.934771 [info ] [MainThread]: 
+[0m11:07:55.934771 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:07:55.934771 [info ] [MainThread]: 
+[0m11:07:55.934771 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:07:55.938826 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m11:07:56.025411 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m11:07:56.025411 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m11:07:56.025411 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:07:59.238667 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.214 seconds
+[0m11:07:59.256000 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM_marts'
+[0m11:07:59.302321 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:07:59.302321 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:07:59.304332 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:08:01.876411 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.572 seconds
+[0m11:08:01.883826 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:08:01.883826 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m11:08:02.016178 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.132 seconds
+[0m11:08:02.016178 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:08:02.016178 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:08:02.131934 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.110 seconds
+[0m11:08:02.142568 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_DBT_DBT_NLM)
+[0m11:08:02.142568 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:08:02.142568 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:08:02.288631 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.130 seconds
+[0m11:08:02.288631 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:08:02.288631 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m11:08:02.912445 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.620 seconds
+[0m11:08:02.912445 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:08:02.912445 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:08:03.347569 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.441 seconds
+[0m11:08:03.359757 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM, now list_seeds_DBT_NLM_static)
+[0m11:08:03.359757 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:08:03.359757 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:08:03.938217 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.565 seconds
+[0m11:08:03.946628 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:08:03.948339 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m11:08:04.174732 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.232 seconds
+[0m11:08:04.174732 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:08:04.174732 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:08:04.289505 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.112 seconds
+[0m11:08:04.303611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A85913A0>]}
+[0m11:08:04.319717 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m11:08:04.319717 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m11:08:04.319717 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m11:08:04.319717 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m11:08:04.360218 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m11:08:04.363245 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m11:08:04.415378 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m11:08:04.415378 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:08:04.417702 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m11:08:04.417702 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:08:10.028553 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 5.612 seconds
+[0m11:08:10.082140 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:08:10.084148 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m11:08:10.264017 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.181 seconds
+[0m11:08:10.290360 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bfd7c522-16ba-47c2-8c30-ea0e5525e61e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E794CF8650>]}
+[0m11:08:10.290360 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 5.97s]
+[0m11:08:10.290360 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m11:08:10.290360 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:08:10.306525 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m11:08:10.307034 [debug] [MainThread]: On list_DBT: Close
+[0m11:08:10.423776 [debug] [MainThread]: Connection 'list_seeds_DBT_NLM_static' was left open.
+[0m11:08:10.424558 [debug] [MainThread]: On list_seeds_DBT_NLM_static: Close
+[0m11:08:10.558682 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m11:08:10.560705 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m11:08:10.683440 [info ] [MainThread]: 
+[0m11:08:10.685307 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 14.75 seconds (14.75s).
+[0m11:08:10.690052 [debug] [MainThread]: Command end result
+[0m11:08:10.720184 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:08:10.737893 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:08:10.743891 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m11:08:10.744893 [info ] [MainThread]: 
+[0m11:08:10.745896 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:08:10.746894 [info ] [MainThread]: 
+[0m11:08:10.746894 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:08:10.748901 [debug] [MainThread]: Command `dbt run` succeeded at 11:08:10.747894 after 17.09 seconds
+[0m11:08:10.748901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7956A4740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7EA8710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7A7D2D880>]}
+[0m11:08:10.749892 [debug] [MainThread]: Flushing usage events
+[0m11:08:12.218122 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:13:09.282264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB464ACD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB464AD670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB464AFE60>]}
+
+
+============================== 11:13:09.285800 | 992423c3-5a82-48b2-83bd-002ebef00b4a ==============================
+[0m11:13:09.285800 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:13:09.285800 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:13:10.129213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4452B680>]}
+[0m11:13:10.185594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB579909B0>]}
+[0m11:13:10.185594 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m11:13:10.618279 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m11:13:10.803748 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:13:10.803748 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:13:10.803748 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.eth.marts.stablecoin_activity_per_day
+[0m11:13:10.881072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB58BA3A40>]}
+[0m11:13:11.128907 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:13:11.146530 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:13:11.170182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB58F4A600>]}
+[0m11:13:11.171182 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m11:13:11.171963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB58FABD70>]}
+[0m11:13:11.173970 [info ] [MainThread]: 
+[0m11:13:11.173970 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:13:11.174970 [info ] [MainThread]: 
+[0m11:13:11.174970 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:13:11.176181 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m11:13:11.275414 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m11:13:11.275414 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m11:13:11.275414 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:13:14.644856 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.375 seconds
+[0m11:13:14.678897 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT_DBT_NLM_marts'
+[0m11:13:14.693917 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:13:14.693917 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:13:14.693917 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:13:17.200575 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.516 seconds
+[0m11:13:17.216499 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:13:17.216499 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m11:13:17.459446 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.244 seconds
+[0m11:13:17.476852 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:13:17.476852 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:13:17.588748 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.105 seconds
+[0m11:13:17.588748 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_seeds_DBT_NLM_static)
+[0m11:13:17.604674 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:13:17.604674 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:13:17.686613 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m11:13:17.702757 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:13:17.702757 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m11:13:17.824166 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.122 seconds
+[0m11:13:17.834215 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:13:17.834215 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:13:17.913931 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.084 seconds
+[0m11:13:17.913931 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m11:13:17.925607 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:13:17.925607 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:13:18.043986 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.122 seconds
+[0m11:13:18.043986 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:13:18.043986 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m11:13:18.189618 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.145 seconds
+[0m11:13:18.205734 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:13:18.205734 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:13:18.335143 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.125 seconds
+[0m11:13:18.335143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB596E0050>]}
+[0m11:13:18.352150 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m11:13:18.352150 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m11:13:18.352150 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m11:13:18.352150 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m11:13:18.384165 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m11:13:18.386209 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m11:13:18.421907 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m11:13:18.421907 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:13:18.421907 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m11:13:18.421907 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:13:23.464522 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 5.035 seconds
+[0m11:13:23.514041 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:13:23.516049 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m11:13:23.659364 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.143 seconds
+[0m11:13:23.675297 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '992423c3-5a82-48b2-83bd-002ebef00b4a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB43C2E690>]}
+[0m11:13:23.675297 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 5.31s]
+[0m11:13:23.675297 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m11:13:23.675297 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:13:23.675297 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m11:13:23.680112 [debug] [MainThread]: On list_DBT: Close
+[0m11:13:23.789161 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m11:13:23.789161 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m11:13:23.903766 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m11:13:23.903766 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m11:13:24.028299 [info ] [MainThread]: 
+[0m11:13:24.030317 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 12.85 seconds (12.85s).
+[0m11:13:24.033537 [debug] [MainThread]: Command end result
+[0m11:13:24.090872 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:13:24.095348 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:13:24.103706 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m11:13:24.104588 [info ] [MainThread]: 
+[0m11:13:24.104588 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:13:24.105615 [info ] [MainThread]: 
+[0m11:13:24.106611 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:13:24.107610 [debug] [MainThread]: Command `dbt run` succeeded at 11:13:24.107610 after 14.96 seconds
+[0m11:13:24.107610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4663E030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB58B84080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB46361160>]}
+[0m11:13:24.108609 [debug] [MainThread]: Flushing usage events
+[0m11:13:25.614990 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:14:26.482664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEE165490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEE166CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEE164E00>]}
+
+
+============================== 11:14:26.485702 | ded0101a-f364-4666-9f08-ced41d9c0bb1 ==============================
+[0m11:14:26.485702 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:14:26.485702 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:14:27.276560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEE0F6B70>]}
+[0m11:14:27.339290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFF66AF90>]}
+[0m11:14:27.339290 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m11:14:27.731783 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m11:14:27.905566 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:14:27.905566 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:14:27.905566 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.eth.marts.stablecoin_activity_per_day
+[0m11:14:27.990037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFF84F830>]}
+[0m11:14:28.080522 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:14:28.096299 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:14:28.112386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFFCCC890>]}
+[0m11:14:28.112386 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m11:14:28.112386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFDD46330>]}
+[0m11:14:28.112386 [info ] [MainThread]: 
+[0m11:14:28.112386 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:14:28.128213 [info ] [MainThread]: 
+[0m11:14:28.128213 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:14:28.128213 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m11:14:28.215476 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m11:14:28.216476 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m11:14:28.216476 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:14:31.123072 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.908 seconds
+[0m11:14:31.139161 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_seeds_DBT_NLM_static'
+[0m11:14:31.175066 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:14:31.175066 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:14:31.177076 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:14:33.794115 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.617 seconds
+[0m11:14:33.794115 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:14:33.794115 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m11:14:33.940064 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.133 seconds
+[0m11:14:33.940064 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:14:33.940064 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:14:34.050536 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m11:14:34.052909 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM_marts)
+[0m11:14:34.052909 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:14:34.052909 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:14:34.197625 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.138 seconds
+[0m11:14:34.197625 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:14:34.197625 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m11:14:34.359766 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.161 seconds
+[0m11:14:34.375540 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:14:34.375540 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:14:34.472119 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.093 seconds
+[0m11:14:34.472119 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM_marts, now list_DBT_DBT_NLM)
+[0m11:14:34.472119 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:14:34.472119 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:14:34.571424 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m11:14:34.571424 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:14:34.571424 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m11:14:34.795342 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.225 seconds
+[0m11:14:34.795342 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:14:34.795342 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:14:34.907746 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.107 seconds
+[0m11:14:34.923475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C81A18680>]}
+[0m11:14:34.923475 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m11:14:34.939547 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m11:14:34.939547 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m11:14:34.939547 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m11:14:34.939547 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m11:14:34.939547 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m11:14:34.994000 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m11:14:34.995968 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:14:34.995968 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m11:14:34.995968 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:14:38.984762 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 3.988 seconds
+[0m11:14:39.008714 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:14:39.015803 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m11:14:39.151416 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.146 seconds
+[0m11:14:39.177259 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ded0101a-f364-4666-9f08-ced41d9c0bb1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C81B53650>]}
+[0m11:14:39.177259 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 4.24s]
+[0m11:14:39.177259 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m11:14:39.177259 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:14:39.184235 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m11:14:39.184235 [debug] [MainThread]: On list_DBT: Close
+[0m11:14:39.306264 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM' was left open.
+[0m11:14:39.307268 [debug] [MainThread]: On list_DBT_DBT_NLM: Close
+[0m11:14:39.443102 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m11:14:39.443102 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m11:14:39.560960 [info ] [MainThread]: 
+[0m11:14:39.560960 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 11.43 seconds (11.43s).
+[0m11:14:39.577143 [debug] [MainThread]: Command end result
+[0m11:14:39.620976 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:14:39.620976 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:14:39.635279 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m11:14:39.636294 [info ] [MainThread]: 
+[0m11:14:39.637296 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:14:39.637296 [info ] [MainThread]: 
+[0m11:14:39.638634 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:14:39.639699 [debug] [MainThread]: Command `dbt run` succeeded at 11:14:39.639699 after 13.27 seconds
+[0m11:14:39.639699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEDCE8C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFE809700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CEE35CCE0>]}
+[0m11:14:39.640688 [debug] [MainThread]: Flushing usage events
+[0m11:14:41.114207 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:18:02.525739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3AC2DD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3B2E7560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE37E4A510>]}
+
+
+============================== 11:18:02.525739 | 92c6a7cf-5931-4723-a9b6-f059688ba040 ==============================
+[0m11:18:02.525739 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:18:02.525739 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\GOPINATH\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\GOPINATH\\Desktop\\Ethereum Project\\eth\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run -m stable_coin_activity_per_day', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:18:03.392431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4C56D880>]}
+[0m11:18:03.458999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4C56DC10>]}
+[0m11:18:03.458999 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m11:18:03.857013 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m11:18:04.039162 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:18:04.039162 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:18:04.102070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4D6A8EC0>]}
+[0m11:18:04.197780 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:18:04.220385 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:18:04.244118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4DB60C80>]}
+[0m11:18:04.244118 [info ] [MainThread]: Found 8 models, 1 analysis, 1 seed, 2 data tests, 4 sources, 483 macros
+[0m11:18:04.244118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4D6E2EA0>]}
+[0m11:18:04.244118 [info ] [MainThread]: 
+[0m11:18:04.244118 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:18:04.244118 [info ] [MainThread]: 
+[0m11:18:04.244118 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:18:04.244118 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DBT'
+[0m11:18:04.325723 [debug] [ThreadPool]: Using snowflake connection "list_DBT"
+[0m11:18:04.325723 [debug] [ThreadPool]: On list_DBT: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT"} */
+show terse schemas in database DBT
+    limit 10000
+[0m11:18:04.325723 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:18:07.270806 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.940 seconds
+[0m11:18:07.286662 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_seeds_DBT_NLM_static'
+[0m11:18:07.318306 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:18:07.318306 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:18:07.318306 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:18:09.766891 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.447 seconds
+[0m11:18:09.780444 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:18:09.781443 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+show objects in seeds.DBT_NLM_static
+    limit 10000
+    
+;
+[0m11:18:09.907849 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.126 seconds
+[0m11:18:09.913907 [debug] [ThreadPool]: Using snowflake connection "list_seeds_DBT_NLM_static"
+[0m11:18:09.915920 [debug] [ThreadPool]: On list_seeds_DBT_NLM_static: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_seeds_DBT_NLM_static"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:18:10.528827 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.613 seconds
+[0m11:18:10.528827 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_seeds_DBT_NLM_static, now list_DBT_DBT_NLM)
+[0m11:18:10.542739 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:18:10.543846 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:18:10.644360 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m11:18:10.650360 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:18:10.652323 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+show objects in DBT.DBT_NLM
+    limit 10000
+    
+;
+[0m11:18:10.807569 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.154 seconds
+[0m11:18:10.815173 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM"
+[0m11:18:10.817350 [debug] [ThreadPool]: On list_DBT_DBT_NLM: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:18:10.900202 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m11:18:10.908141 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_DBT_DBT_NLM, now list_DBT_DBT_NLM_marts)
+[0m11:18:10.911332 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:18:10.911332 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m11:18:11.017878 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.095 seconds
+[0m11:18:11.026364 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:18:11.028349 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+show objects in DBT.DBT_NLM_marts
+    limit 10000
+    
+;
+[0m11:18:11.198183 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.168 seconds
+[0m11:18:11.200355 [debug] [ThreadPool]: Using snowflake connection "list_DBT_DBT_NLM_marts"
+[0m11:18:11.200355 [debug] [ThreadPool]: On list_DBT_DBT_NLM_marts: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "connection_name": "list_DBT_DBT_NLM_marts"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m11:18:11.293976 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.090 seconds
+[0m11:18:11.302584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE4DEA8E90>]}
+[0m11:18:11.314578 [debug] [Thread-1 (]: Began running node model.eth.stable_coin_activity_per_day
+[0m11:18:11.318513 [info ] [Thread-1 (]: 1 of 1 START sql table model DBT_NLM_marts.stable_coin_activity_per_day ........ [RUN]
+[0m11:18:11.318513 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.eth.stable_coin_activity_per_day'
+[0m11:18:11.318513 [debug] [Thread-1 (]: Began compiling node model.eth.stable_coin_activity_per_day
+[0m11:18:11.344710 [debug] [Thread-1 (]: Writing injected SQL for node "model.eth.stable_coin_activity_per_day"
+[0m11:18:11.346314 [debug] [Thread-1 (]: Began executing node model.eth.stable_coin_activity_per_day
+[0m11:18:11.392613 [debug] [Thread-1 (]: Writing runtime sql for node "model.eth.stable_coin_activity_per_day"
+[0m11:18:11.394620 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:11.394620 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
+    
+
+    
+    as (
+
+select
+
+    t.date,
+    t.token_address,
+    s.type,
+    s.symbol,
+    
+
+(sum( t.value /POWER(10, s.decimals) ))
+
+ as total_usd_value
+
+from DBT.DBT_NLM.stg_token_transfers t
+left join seeds.DBT_NLM_static.stablecoins s
+on t.token_address=s.contract_address
+
+where s.contract_address is null 
+
+group by 
+t.date,
+t.token_address,
+s.type,
+s.symbol
+    )
+;
+[0m11:18:11.395608 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:18:16.122177 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 4.727 seconds
+[0m11:18:16.130300 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:16.132329 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+GRANT USAGE ON DATABASE DBT TO ROLE TESTER;
+[0m11:18:16.222743 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.089 seconds
+[0m11:18:16.226787 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:16.228809 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+GRANT USAGE ON SCHEMA DBT.DBT_NLM_MARTS TO ROLE TESTER;
+[0m11:18:16.316386 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.095 seconds
+[0m11:18:16.332482 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:16.332482 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+GRANT USAGE ON DATABASE DBT TO ROLE BA;
+[0m11:18:16.424655 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.090 seconds
+[0m11:18:16.429585 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:16.429585 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+GRANT USAGE ON SCHEMA DBT.DBT_NLM_MARTS TO ROLE BA;
+[0m11:18:16.511588 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m11:18:16.559119 [debug] [Thread-1 (]: Using snowflake connection "model.eth.stable_coin_activity_per_day"
+[0m11:18:16.559119 [debug] [Thread-1 (]: On model.eth.stable_coin_activity_per_day: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "eth", "target_name": "dev", "node_id": "model.eth.stable_coin_activity_per_day"} */
+grant select on DBT.DBT_NLM_marts.stable_coin_activity_per_day to TESTER;
+[0m11:18:16.687838 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.123 seconds
+[0m11:18:16.721113 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '92c6a7cf-5931-4723-a9b6-f059688ba040', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3B487590>]}
+[0m11:18:16.721113 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DBT_NLM_marts.stable_coin_activity_per_day ... [[32mSUCCESS 1[0m in 5.40s]
+[0m11:18:16.721113 [debug] [Thread-1 (]: Finished running node model.eth.stable_coin_activity_per_day
+[0m11:18:16.733388 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:18:16.733388 [debug] [MainThread]: Connection 'list_DBT' was left open.
+[0m11:18:16.733388 [debug] [MainThread]: On list_DBT: Close
+[0m11:18:16.840210 [debug] [MainThread]: Connection 'list_DBT_DBT_NLM_marts' was left open.
+[0m11:18:16.840210 [debug] [MainThread]: On list_DBT_DBT_NLM_marts: Close
+[0m11:18:16.955061 [debug] [MainThread]: Connection 'model.eth.stable_coin_activity_per_day' was left open.
+[0m11:18:16.955061 [debug] [MainThread]: On model.eth.stable_coin_activity_per_day: Close
+[0m11:18:17.082152 [info ] [MainThread]: 
+[0m11:18:17.082152 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 12.84 seconds (12.84s).
+[0m11:18:17.082152 [debug] [MainThread]: Command end result
+[0m11:18:17.128855 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\manifest.json
+[0m11:18:17.128855 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\semantic_manifest.json
+[0m11:18:17.143376 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\GOPINATH\Desktop\Ethereum Project\eth\target\run_results.json
+[0m11:18:17.143376 [info ] [MainThread]: 
+[0m11:18:17.143376 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:18:17.143376 [info ] [MainThread]: 
+[0m11:18:17.143376 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:18:17.143376 [debug] [MainThread]: Command `dbt run` succeeded at 11:18:17.143376 after 14.80 seconds
+[0m11:18:17.143376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE37D93050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3AC503B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3AC52300>]}
+[0m11:18:17.143376 [debug] [MainThread]: Flushing usage events
+[0m11:18:18.693356 [debug] [MainThread]: An error was encountered while trying to flush usage events
