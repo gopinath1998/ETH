@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM.stg_transactions_enriched
+create or replace transient table PROD.PROD_SCHEMA.stg_transactions_enriched
     
 
     

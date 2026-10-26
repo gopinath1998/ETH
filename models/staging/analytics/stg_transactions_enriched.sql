@@ -28,5 +28,5 @@ left join(
 ) tt
 on t.hash=tt.transaction_hash
 
-where date >(select max(date) from DBT.DBT_NLM.stg_transactions_enriched )
+where date >(select max(date) from DBT.DBT_NLM.stg_transactions )
 

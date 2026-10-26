@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM_marts.tron_activity_per_day
+create or replace transient table PROD.PROD_SCHEMA_marts.tron_activity_per_day
     
 
     
@@ -18,7 +18,7 @@ select
 
  as total_usd_value
 
-from DBT.DBT_NLM.stg_token_transfers t
+from PROD.PROD_SCHEMA.stg_token_transfers t
 where lower(t.token_address)= '0x50327c6c5a14dcade707abad2e27eb517df87ab5'
 
 group by 

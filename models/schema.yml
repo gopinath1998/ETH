@@ -12,3 +12,38 @@ models:
         data_tests:
           - unique
           - not_null
+  - name: stable_coin_activity_per_day
+    latest_version: 2
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: date
+        data_type: date
+        description: "" 
+
+      - name: token_address
+        data_type: varchar
+        description: ""
+
+      - name: type
+        data_type: varchar
+        description: ""
+
+      - name: symbol
+        data_type: varchar
+        description: ""
+
+      - name: total_usd_value
+        data_type: float
+        description: ""
+
+    versions:
+      - v: 1
+        deprecation_date: 2030-01-01
+       # matches what's above
+      - v: 2
+      # Removed a column
+        columns:
+          - include: all
+            exclude: [token_address,symbol]

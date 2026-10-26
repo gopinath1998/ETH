@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM_marts.eth_activity_per_day
+create or replace transient table PROD.PROD_SCHEMA_marts.eth_activity_per_day
     
 
     
@@ -17,7 +17,7 @@ select
 sum( value)/1e18
 
  as sum_eth_value
-from DBT.DBT_NLM.stg_transactions_enriched
+from PROD.PROD_SCHEMA.stg_transactions_enriched
 group by date, transaction_category
     )
 ;

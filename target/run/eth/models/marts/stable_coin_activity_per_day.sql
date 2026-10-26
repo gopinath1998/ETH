@@ -4,9 +4,22 @@
 
 create or replace transient table DBT.DBT_NLM_marts.stable_coin_activity_per_day
     
+  (
+    date date,
+    token_address varchar,
+    type varchar,
+    symbol varchar,
+    total_usd_value float
+    
+    )
+
+    
 
     
     as (
+    select date, token_address, type, symbol, total_usd_value
+    from (
+        
 
 select
 
@@ -31,6 +44,7 @@ t.date,
 t.token_address,
 s.type,
 s.symbol
+    ) as model_subq
     )
 ;
 

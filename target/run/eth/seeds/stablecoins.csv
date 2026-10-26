@@ -2,11 +2,11 @@
     
     
     
-    create table seeds.DBT_NLM_static.stablecoins (Contract_Address text,Symbol text,Type text,Decimals integer)
+    create table seeds.PROD_SCHEMA_static.stablecoins (Contract_Address text,Symbol text,Type text,Decimals integer)
   ;
     -- dbt seed --
     
-            insert into seeds.DBT_NLM_static.stablecoins (Contract_Address, Symbol, Type, Decimals) values
+            insert into seeds.PROD_SCHEMA_static.stablecoins (Contract_Address, Symbol, Type, Decimals) values
             (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
         
 
