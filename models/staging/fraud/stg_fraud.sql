@@ -1,4 +1,4 @@
-
+{{ config(group = 'fraud_risk',acess='private') }}
 
 select 
     t.from_address,

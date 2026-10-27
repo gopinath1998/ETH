@@ -1,0 +1,11 @@
+groups:
+  - name: analytics_engineering
+    owner:
+      # 'name' or 'email' is required; additional properties will no longer be allowed in a future release
+      name: Engineering Team
+      email: analtics@company.com
+
+  - name: fraud_risk
+    owner:
+      name: Fraud Platform
+      email: fraud@company.com
