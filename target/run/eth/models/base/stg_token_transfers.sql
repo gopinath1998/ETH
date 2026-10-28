@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM.stg_token_transfers
+create or replace transient table CI.CI_SCHEMA.stg_token_transfers
     
 
     
@@ -14,7 +14,7 @@ date,
 token_address,
 value
 
-from eth.eth_schema.token_transfers
+from (select * from eth.eth_schema.token_transfers where false limit 0)
     )
 ;
 

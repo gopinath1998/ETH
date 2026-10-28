@@ -2,7 +2,7 @@
   
     
 
-create or replace transient table DBT.DBT_NLM.stg_contracts
+create or replace transient table CI.CI_SCHEMA.stg_contracts
     
 
     
@@ -14,7 +14,7 @@ select
     bytecode,
     date,
     last_modified
-from eth.eth_schema.contracts
+from (select * from eth.eth_schema.contracts where false limit 0)
     )
 ;
 

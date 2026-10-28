@@ -12,8 +12,8 @@
 
     
 
-    merge into DBT.DBT_NLM.stg_transactions as DBT_INTERNAL_DEST
-        using DBT.DBT_NLM.stg_transactions__dbt_tmp as DBT_INTERNAL_SOURCE
+    merge into CI.CI_SCHEMA.stg_transactions as DBT_INTERNAL_DEST
+        using CI.CI_SCHEMA.stg_transactions__dbt_tmp as DBT_INTERNAL_SOURCE
         on ((DBT_INTERNAL_SOURCE.hash = DBT_INTERNAL_DEST.hash))
 
     

@@ -8,4 +8,3 @@ select
 from {{ ref('stg_transactions_enriched')}}
 group by date, transaction_category
  
- 

@@ -6,4 +6,4 @@ date,
 token_address,
 value
 
-from eth.eth_schema.token_transfers
+from (select * from eth.eth_schema.token_transfers where false limit 0)
