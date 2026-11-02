@@ -1,6 +1,3 @@
-
-
-
 select 
     t.hash,
     t.block_number,
