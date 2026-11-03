@@ -15,6 +15,6 @@ from {{ source('eth','transactions') }}
 
 {% if is_incremental() %}
 
-where date >(select max(date) from {{ this }} )
+where date > (select max(date) from {{ this }} )
 
 {% endif %}
