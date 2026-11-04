@@ -4,8 +4,13 @@ sources:
   - name: eth
     database: eth  
     schema: eth_schema  
+    freshness:
+
+      warn_after: { count: 10, period: hour}
+      error_after: { count: 30, period: day}
+    loaded_at_field: to_timestamp(date)
     tables:
       - name: contracts
-      - name: contracts_clone
+#      - name: contracts_clone
       - name: token_transfers
       - name: transactions

@@ -93,3 +93,15 @@ unit_tests:
     expect:
       rows:
         - {transaction_category: 'contract_creation'}
+
+exposures:
+
+  - name: eth_activity_per_day
+    type: dashboard
+
+    depends_on:
+      - ref('stg_transactions_enriched')
+
+    owner:
+      name: gopi guru
+      email: data@gopi.com
