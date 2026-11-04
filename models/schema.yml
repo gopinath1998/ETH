@@ -17,14 +17,14 @@ models:
                 where: date > current_date -30
 
 
-  - name: stg_transactions_enriched
+  - name: "stg_transactions_enriched"
     columns:
       - name: value
         data_tests:
           - asserted_eth_value_positive:
               field: block_number
   - name: stg_transactions
-    description: Transaction in the ethereum project
+    description:  "{{ doc('transactions') }}"
     columns:
       - name: hash
         description: >
